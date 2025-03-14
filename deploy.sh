@@ -25,4 +25,4 @@ docker cp ./privatekey.pem node_app:/privatekey.pem
 # Add the server key to the node_app docker container
 docker cp ./server.crt node_app:/server.crt
 # start the node_app container
-docker start node app
+docker start node_app
